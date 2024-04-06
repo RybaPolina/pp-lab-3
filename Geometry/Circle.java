@@ -21,4 +21,8 @@ public class Circle {
     public double calculatePerimeter() {
         return 2 * 3.14 * radius;
     }
+
+    public double calculateArea() {
+        return 3.14 * radius *radius;
+    }
 }
